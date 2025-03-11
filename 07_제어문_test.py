@@ -12,7 +12,7 @@ menu = ''
 while True: 
     menu = input(display)
     if menu == '1':
-        print('명함입력')
+        print('명함 입력')
     elif menu == '2':
         print('명함수정')
     elif menu == '3':
@@ -24,3 +24,4 @@ while True:
         sys.exit()
     else:
         print('메뉴선택을 잘못하셨습니다.')
+
